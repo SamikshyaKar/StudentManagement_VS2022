@@ -8,6 +8,8 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace StudentManagement_VS2022.Models
 {
+
+    [BsonIgnoreExtraElements]
     public class Students
     {
 
